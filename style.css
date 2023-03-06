@@ -1,0 +1,845 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 600px;
+    font-size: 20px;
+    margin-top: 35px;
+    width: 700px;
+    position: fixed;
+    /* padding-bottom: 200px; */
+}
+
+nav>div:hover {
+    border-bottom: 2px solid springgreen;
+}
+
+nav>button {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 0px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+button div {
+    width: 100%;
+    background-color: springgreen;
+    position: absolute;
+    border-radius: 50px;
+    top: 0%;
+    left: -100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+button h5 {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    z-index: 199;
+}
+
+button:hover div {
+    left: 0;
+    z-index: 99;
+}
+
+.left {
+    position: fixed;
+    font-size: 35px;
+    margin-top: 30px;
+    font-weight: 540;
+    margin-left: 30px;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+}
+
+.img1>img {
+    height: 400px;
+    width: 290px;
+    position: absolute;
+    left: 90px;
+    top: 150px;
+    transition: 1s;
+}
+
+.img1>img:hover {
+    top: 130px;
+}
+
+.img2>img {
+    height: 230px;
+    width: 240px;
+    position: absolute;
+    right: 260px;
+    top: 120px;
+    transition: 1s;
+}
+
+.img2>img:hover {
+    top: 100px;
+}
+
+.img3>img {
+    height: 230px;
+    width: 240px;
+    position: absolute;
+    right: 50px;
+    top: 330px;
+    transition: 1s;
+}
+
+.img3>img:hover {
+    top: 310px;
+}
+
+.pg1-txt {
+    font-size: 70px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 40%;
+    left: 30%;
+}
+
+.pg1-txt1 {
+    font-size: 70px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 54%;
+    left: 45%;
+    /* transition: 1s; */
+}
+
+.pg1-txt2 {
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.815);
+    /* transition: 1s; */
+}
+
+
+/* .pg1-txt2 div {
+    width: 100%;
+    background-color: springgreen;
+    position: absolute;
+    border-radius: 50px;
+    top: 0%;
+    left: -100%;
+    height: 100%;
+    transition: 0.5s;
+} */
+
+.page1>button {
+    padding: 10px 50px;
+    position: absolute;
+    top: 75%;
+    left: 59%;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid black;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.page1>button div {
+    width: 100%;
+    background-color: springgreen;
+    position: absolute;
+    border-radius: 50px;
+    /* position: relative; */
+    top: 0%;
+    right: 40%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.page1>button i {
+    z-index: 199;
+}
+
+.page1>button>div:hover {
+    right: 0;
+    /* z-index: 99; */
+}
+
+.page2 {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+}
+
+.pg2-txt {
+    font-size: 23px;
+    position: absolute;
+    left: 30%;
+    color: white;
+    top: 120%;
+    /* transition: 1s; */
+}
+
+.pg2-txt1 {
+    font-size: 48px;
+    position: absolute;
+    left: 20%;
+    top: 130%;
+    color: white;
+    /* transition: 1s; */
+}
+
+.pg2-txt2 {
+    position: absolute;
+    top: 165%;
+    left: 40%;
+    color: white;
+    font-size: 27px;
+    /* transition: 1s; */
+}
+
+.pg2-txt1>img {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
+.pg2-txt2>button {
+    padding: 7px 20px;
+    border-radius: 40%;
+}
+
+.page3 {
+    height: 100%;
+    width: 100%;
+}
+
+.pg3-img1>img {
+    height: 450px;
+    width: 150px;
+}
+
+.pg3-img2>img {
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    top: 263%;
+}
+
+.pg3-img3>img {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 180%;
+    left: 12%;
+}
+
+
+/* .pg3-img4>img {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    top: 225%;
+    left: 12%;
+} */
+
+.pg3-txt {
+    font-size: 55px;
+    position: absolute;
+    right: 5%;
+    top: 220%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lastone>img {
+    height: 250px;
+    position: absolute;
+    top: 180%;
+    left: 12.5%;
+}
+
+.pg3-txt>img {
+    position: absolute;
+    right: 20%;
+}
+
+.pg3-txt1 {
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    top: 245%;
+    line-height: 35px;
+}
+
+.pg3-img4>img {
+    height: 500px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+    top: 330%;
+}
+
+.pg3-img4>button {
+    position: absolute;
+    left: 80%;
+    top: 291%;
+    padding: 12px 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.inner {
+    position: absolute;
+    left: 65%;
+    top: 292%;
+    font-size: 23px;
+    overflow: hidden;
+}
+
+.inner>button div {
+    width: 100%;
+    background-color: springgreen;
+    border-radius: 50px;
+    /* position: relative; */
+    top: 0%;
+    right: 40%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.inner>button>div:hover {
+    right: 0;
+    /* z-index: 99; */
+}
+
+*/ .page4 {
+    height: 100%;
+    width: 100%;
+}
+
+.pg4-txt {
+    font-size: 50px;
+    position: absolute;
+    left: 20%;
+    top: 315%;
+}
+
+.pg4-txt>img {
+    position: absolute;
+    left: 10%;
+}
+
+.pg4-txt1 {
+    font-size: 50px;
+    position: absolute;
+    left: 40%;
+    top: 328%;
+}
+
+.pg4-img1>img {
+    height: 50px;
+    position: absolute;
+    top: 350%;
+    left: 10%;
+}
+
+.pg1-txt>img {
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+
+.pg4-img2>img {
+    height: 50px;
+    position: absolute;
+    top: 350%;
+    left: 25%;
+}
+
+.pg4-img3>img {
+    height: 50px;
+    position: absolute;
+    top: 350%;
+    left: 40%;
+}
+
+.pg4-img4>img {
+    height: 50px;
+    position: absolute;
+    top: 350%;
+    width: 90px;
+    left: 60%;
+}
+
+.pg4-img5>img {
+    height: 50px;
+    position: absolute;
+    top: 350%;
+    width: 90px;
+    left: 75%;
+}
+
+.pg4-img6>img {
+    height: 50px;
+    position: absolute;
+    top: 374%;
+    width: 100px;
+    left: 10%;
+}
+
+.pg4-img7>img {
+    height: 50px;
+    position: absolute;
+    top: 374%;
+    width: 100px;
+    left: 25%;
+}
+
+.pg4-img8>img {
+    height: 50px;
+    position: absolute;
+    top: 374%;
+    width: 100px;
+    left: 42%;
+}
+
+.pg4-img9>img {
+    height: 50px;
+    position: absolute;
+    top: 374%;
+    width: 100px;
+    left: 60%;
+}
+
+.pg4-img10>img {
+    height: 50px;
+    position: absolute;
+    top: 374%;
+    width: 100px;
+    left: 75%;
+}
+
+.pg4-img11>img {
+    height: 50px;
+    position: absolute;
+    top: 398%;
+    left: 10%;
+}
+
+.pg4-img12>img {
+    height: 50px;
+    position: absolute;
+    top: 398%;
+    left: 25%;
+}
+
+.pg4-img13>img {
+    height: 50px;
+    position: absolute;
+    top: 398%;
+    left: 40%;
+}
+
+.pg4-img14>img {
+    height: 50px;
+    position: absolute;
+    top: 398%;
+    left: 60%;
+}
+
+.pg4-img15>img {
+    height: 50px;
+    position: absolute;
+    top: 398%;
+    left: 75%;
+}
+
+.page5 {
+    height: 100%;
+    width: 100%;
+}
+
+.pg5-box1 {
+    height: 400px;
+    position: absolute;
+    top: 450%;
+    left: 5%;
+    opacity: 3px;
+    width: 500px;
+    background-image: url(/Golf.webp);
+    background-size: cover;
+    /* filter: blur(1px); */
+    filter: opacity(2000px);
+    transition: 1s;
+}
+
+.pg5-box1:hover {
+    transform: scale(1.1);
+}
+
+.pg5-box2 {
+    height: 400px;
+    position: absolute;
+    top: 450%;
+    left: 55%;
+    opacity: 3px;
+    width: 500px;
+    filter: opacity(2000px);
+    background-image: url(/work-thumbnail-03.webp);
+    background-size: cover;
+    transition: 1s;
+}
+
+.pg5-box2:hover {
+    transform: scale(1.1);
+}
+
+.pg5-box1>p {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    transition: 1s;
+}
+
+
+/* 
+.pg5-box1:hover {
+    height: 300px;
+} */
+
+.pg5-box1>img {
+    height: 40px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+
+.pg5-box1>h3 {
+    color: white;
+    font-size: 25px;
+    top: 80%;
+    position: absolute;
+    left: 5%;
+}
+
+.pg5-box1>h3>button {
+    padding: 8px 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.pg5-box2>p {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+
+.pg5-box2>img {
+    height: 40px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+
+.pg5-box2>h3 {
+    color: white;
+    font-size: 25px;
+    top: 80%;
+    position: absolute;
+    left: 5%;
+}
+
+.pg5-box2>h3>button {
+    padding: 8px 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.page6 {
+    height: 100%;
+    width: 100%;
+}
+
+.pg6-txt>img {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 530%;
+    left: 35%;
+}
+
+.page6>p {
+    font-size: 30px;
+    position: absolute;
+    top: 530%;
+    left: 40%;
+}
+
+.page6>p>button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.swiper {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 540%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 68px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page7 {
+    height: 70%;
+    width: 100%;
+}
+
+.pg7-img {
+    height: 55%;
+    width: 70%;
+    background-image: url(/lastimg.webp);
+    position: absolute;
+    top: 630%;
+    left: 15%;
+}
+
+.pg7-img>p {
+    font-size: 35px;
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 13%;
+}
+
+.pg7-img>p>img {
+    height: 8px;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
+.pg7-img>h2 {
+    position: absolute;
+    top: 35%;
+    font-size: 30px;
+    left: 8%;
+    color: #fff;
+}
+
+.pg7-img>h3 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-size: 25px;
+}
+
+.pg7-img>h3>button {
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: #fff;
+}
+
+.pg7-img>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    top: 58%;
+    position: absolute;
+    left: 30%;
+    border: 1px solid white;
+    background-color: rgb(107, 167, 147);
+    /* filter: brightness(20%); */
+}
+
+.page8 {
+    height: 120%;
+    width: 100%;
+}
+
+.pg8-img1>img {
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    top: 700%;
+    left: 80%;
+}
+
+.pg8-img2>img {
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    top: 720%;
+    left: 80%;
+}
+
+.pg8-img3>img {
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 740%;
+    left: 80%;
+}
+
+.pg8-txt {
+    font-size: 25px;
+    font-weight: 800;
+    top: 700%;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    width: 500px;
+    left: 30%;
+    justify-content: space-between;
+}
+
+.pg8-txt {
+    font-size: 25px;
+    font-weight: 800;
+    top: 700%;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    width: 500px;
+    left: 40%;
+    justify-content: space-between;
+}
+
+.pg8-txt1 {
+    font-size: 20px;
+    font-weight: 400;
+    top: 710%;
+    position: absolute;
+    display: flex;
+    color: rgb(126, 123, 123);
+    width: 500px;
+    left: 40%;
+    justify-content: space-between;
+}
+
+.pg8-txt2 {
+    font-size: 20px;
+    top: 720%;
+    position: absolute;
+    display: flex;
+    color: rgb(126, 123, 123);
+    width: 300px;
+    left: 52%;
+    justify-content: space-between;
+}
+
+.pg9-txt3 {
+    font-size: 50px;
+    position: absolute;
+    top: 695%;
+    left: 12%;
+    color: #fff;
+    font-weight: 20;
+}
+
+.pg9-txt3>img {
+    position: absolute;
+    height: 60px;
+    left: 0px;
+    top: 55%;
+}
+
+.pg9-txt4 {
+    font-size: 30px;
+    position: absolute;
+    top: 720%;
+    left: 10%;
+    color: #fff;
+}
+
+.pg9-txt4>button {
+    padding: 7px 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #fff;
+}
+
+.line {
+    height: 0.5px;
+    width: 90%;
+    left: 5%;
+    border: 1px solid rgb(82, 80, 80);
+    position: absolute;
+    top: 753%;
+}
+
+.main-img>img {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 225%;
+    left: 12%;
+    /* filter: brightness(50px); */
+}
+
+.lastpg {
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* position: absolute; */
+    /* top: 500%; */
+}
